@@ -1,0 +1,68 @@
+
+html,body{
+    height: 100%;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color: aqua;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title{ 
+    margin-top: 100px ;
+    color: rgba(24, 24, 24, 0.8);
+}
+
+.list{
+    width: 100%;
+    max-width: 960px;
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    flex-flow: wrap;
+    gap: 16px;
+
+ 
+}
+
+ .list-item{
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    flex-basis: 290px;
+    background-image: url(img/thumb02.jpg);
+    background-repeat: no-repeat;
+    text-align:center;
+    align-items:  center;   
+    background-color: rgb(255, 255, 255);
+    
+}
+.list-item__img img{ 
+    width: 90px;
+    border-radius: 50%;
+    margin-top: 170px;    
+}
+
+
+.list-item__name{ 
+   font-size: 24px;
+   margin: 0;
+   color: #385555;
+}
+
+.list-item__email{
+   margin-top: 0;  
+}
+
+.list-item__action{
+    display: flex;
+    padding: 16px; 
+    justify-content: space-around; /* aqui da o espaçamento do centro de dois objetos*/
+    gap: 16px; /* distancia que cada objeto ficara um do outro*/
+    background-color: #e5e5e5;
+}
+
